@@ -1,0 +1,770 @@
+html {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-height: 35rem;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-size: cover;
+    height: 100%;
+}
+
+.overlay {
+    margin-top: 85px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.p-35-10 {
+    padding: 35px 10px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+/* login modal start */
+.container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.jumbo-pic {
+    background: url(../img/bg-a.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    /* max-height: 1826px; */
+    overflow: hidden;
+    /* padding-bottom: 120px; */
+}
+
+.all-padding {
+    padding: 50px 100px;
+}
+
+.padding-jumbo {
+    padding-top: 50px;
+    /* padding-bottom: 20px; */
+}
+
+.padding-jumbo img {
+    width: 50%;
+    border-radius: 100%;
+}
+
+.white-text {
+    color: white;
+}
+
+.img-border {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-bottom: 20px;
+}
+
+.pic-date-padding {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.date-profile {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.activity-padding {
+    padding: 30px;
+}
+
+.howdy {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.howdy-color {
+    color: #f0f0f2;
+    font-size: 45px;
+}
+
+.padding-none {
+    padding: 0;
+}
+.m-r-10{
+    margin-right: 10px;
+}
+.profile-p-color{
+    color: #f0f0f2;
+    padding-right: 150px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.para-box {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.padding-left-0 {
+    padding-left: 0;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.zero-font {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.pic-name-u {
+    text-align: center;
+    color: #a69aa6;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+/* deader section end */
+
+/* deader section start */
+.activity-color {
+    color: #a69a9a;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 10px;
+
+}
+
+.activity-font {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.act-padding {
+    padding: 20px;
+}
+
+.hr-styles {
+    border-top: 2px solid #dddddd;
+    margin-bottom: 30px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.comment-section {
+    background-color: #f9f9fb;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.comment-pic img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%
+}
+
+/* Navbar Css Start */
+.navbar-bg {
+    background: #FBFCFE;
+    padding: 0px 130px;
+    z-index: 1001;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:focus,
+#navbar ul li a:active {
+
+    background: transparent;
+
+}
+
+.mesg {
+    border-right: 1px solid #515250;
+    border-left: 1px solid #515250;
+    padding: 5px;
+}
+
+.mesg a img {
+    width: 30px;
+}
+
+.send-msg,
+.send-msg:focus {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    color: #f19b9b;
+    margin-top: 17px;
+}
+
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+    display: none;
+}
+
+.search-form .form-group input.form-control::-moz-placeholder {
+    display: none;
+}
+
+.navbar-right-search {
+    min-width: 450px; /*or I can probably just use columns*/
+}
+
+.navbar-right form {
+    width: 100%;
+}
+
+.form-group {
+    position: relative;
+    width: 0%;
+    min-width: 60px;
+    height: 55px;
+    overflow: hidden;
+    transition: width 1s;
+    backface-visibility: hidden;
+}
+
+.form-group input.search-box-styles {
+    position: absolute;
+    top: 17px;
+    right: 0;
+    outline: none;
+    width: 60%;
+    height: 37px;
+    margin: 0;
+    z-index: 10;
+    background: transparent;
+    border: 1px solid #868583;
+    color: #f19b9b;
+    margin-right: 10px;
+}
+
+.form-group input.form-control:focus {
+    background: transparent;
+    border: 1px solid #868583;
+    box-shadow: none;
+}
+
+input[type="text"].form-control {
+    -webkit-appearence: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.search-label {
+    width: 49px;
+    height: 37px;
+    position: absolute;
+    right: 0;
+    top: 17px;
+    padding: 0;
+    margin: 0;
+    margin-right: 8px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 34px;
+    background: #656563;
+}
+
+.search-img {
+    width: 20px;
+}
+
+.form-control-submit {
+    background: transparent; /*stupid IE*/
+    opacity: 0;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: -1;
+}
+
+.search-label {
+    z-index: 90;
+}
+
+.form-group.sb-search-open,
+.no-js .sb-search-open {
+    width: 100%;
+}
+
+.form-group.sb-search-open .search-label,
+.no-js .sb-search .search-label {
+    background: #6b6b65;
+    color: #fff;
+    z-index: 11;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.profile-dropdown {
+    padding: 18px 0px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.profile-dropdown:hover,
+.profile-dropdown:focus,
+.profile-dropdown:active {
+    color: #fff;
+}
+
+.profile-border {
+    border-right: 1px solid #515250;
+}
+
+.badge-style {
+    top: 12px;
+    position: absolute;
+    right: 115px;
+    width: 10px;
+    height: 13px;
+    background: #F1C73B;
+}
+
+.dropdown-color {
+    background: #fff;
+}
+
+.dropdown-color a {
+    color: #fff;
+}
+
+.fa-margins {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.login-text {
+    color: #8F8F8E;
+    font-weight: 700;
+}
+
+.login-text:hover,
+.login-text:focus,
+.login-text:active {
+    color: #ababa4;
+    font-weight: 700;
+}
+
+.navbar-text li a {
+    color: #959595;
+    font-weight: 700;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar-text li a:hover {
+    color: #615F5F;
+}
+
+.slash {
+    color: #8F8F8E;
+}
+
+.login {
+    color: #959595;
+
+}
+
+.login:hover,
+.login:focus,
+.login:active {
+    color: #959595;
+}
+
+.profile-pic {
+    border-radius: 100%;
+}
+
+.dropwdown-navbar {
+    margin-top: -10px;
+}
+
+.navbar-text li a.profile-name {
+    color: #000;
+    font-weight: 600;
+    padding: 10px 40px;
+    margin-top: 0px;
+}
+
+.navbar-bg .dropdown li a {
+    color: #605e59;
+    text-align: left;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.dropdown-color li a:hover,
+.dropdown-color li a:focus,
+.dropdown-color li a:active {
+    background: #7A7977 !important;
+    color: #fff;
+}
+
+.profile-name:hover,
+.profile-name:focus,
+.profile-name:active {
+    color: #959595;;
+
+}
+
+/* Navbar Css End */
+
+/* Footer Css  Start */
+.footer {
+    background: #F6F6F8;
+}
+
+.padding-footer {
+    padding: 40px 70px;
+}
+
+.title-widget {
+    color: #4F4F51;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+.widget_nav_menu ul {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.widget_archive ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 3px;
+}
+
+.widget_nav_menu ul li {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+    width: 95%;
+}
+
+.widget_nav_menu ul li a {
+    color: #626264;
+    font-weight: 500;
+}
+
+.title-median {
+    color: #848486;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.fa-style {
+    font-size: 30px !important;
+    padding: 8px;
+    color: #848486;
+}
+
+.m-t-55{
+    margin-top: 55px;
+}
+
+
+
+#social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+#social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+/* 
+    Only Needed in Multi-Coloured Variation 
+                                               */
+.social-fb:hover {
+    color: #3B5998;
+}
+
+.social-tw:hover {
+    color: #4099FF;
+}
+
+.social-gp:hover {
+    color: #d34836;
+}
+
+.social-em:hover {
+    color: #f39c12;
+}
+
+.nomargin {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-bottom {
+    background-color: #f6f6f8;
+    min-height: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright {
+    color: #848486;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+
+.design {
+    color: #848486;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+
+.design a {
+    color: #848486;
+}
+
+.copyright2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #848486;
+}
+
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(17, 31, 36, 0.78);
+}
+
+.container-image .overlay-image:hover {
+    opacity: 1;
+}
+
+.image-upload > input {
+    display: none;
+}
+
+.image-upload img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.row {
+    margin: 0;
+}
+
+.upload-img {
+    font-size: 14px;
+    color: #fff !important;
+}
+
+.fa-upload-style {
+    font-size: 60px !important;
+    color: #fff;
+    text-align: center;
+    vertical-align: bottom;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.fa-upload-style:hover {
+    cursor: pointer;
+}
+
+/* Footer Css End */
+
+/*Paginate Css Start*/
+.pagination > li > a {
+    color: gray !important;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #80796F !important;
+    border-color: #80796F !important;
+}
+
+/*Paginate Css End*/
+
+/*CSS Of Tab Media Query*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .width-20 {
+        width: auto;
+    }
+    .box {
+        padding: 0px 15px;
+    }
+    #navbar > ul > ul{
+        margin-right: 120px;
+    }
+    .img-border {
+        width: 150px;
+        height: 150px;
+        border-radius: 200px;
+        margin-bottom: 20px;
+    }
+
+}
+
+/*ENd of tab*/
+
+
+
+
+/* Mobile Media Query For Mobile Start */
+
+@media only screen and (max-width: 500px) {
+    .navbar-bg {
+        padding: 20px;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+
+    .navbar-toggle {
+        background-color: #254050;
+        margin-top: 25px;
+    }
+    .navbar-text li a.profile-name {
+        padding: 10px;
+    }
+    .all-padding {
+        padding: 20px;
+    }
+    .profile-p-color {
+        text-align: center;
+    }
+    .header-data{
+        text-align: center;
+    }
+    .howdy-color {
+        font-size: 20px;
+    }
+    .padding-left-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .howdy {
+        font-size: 20px;
+    }
+    .profile-p-color {
+        padding-right: 0px;  
+    }
+    .width-20 {
+        width: 100%;
+    }
+    .activity-font {
+        margin-bottom: 25px;
+    }
+    .comment-pic{
+        text-align: center;
+    }
+    .comment-pic img {
+        width: 60px;
+        border-radius: 100%;
+    }
+    .activity-color {
+        text-align: center;
+    }
+
+
+}
+
+
+/* Mobile Media Query End */

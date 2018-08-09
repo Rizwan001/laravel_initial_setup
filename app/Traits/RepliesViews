@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Traits;
+
+trait RepliesViews{
+
+    public function get_replies_views()
+    {
+
+    }
+
+}
+
+?>

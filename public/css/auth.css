@@ -1,0 +1,306 @@
+
+/* Auth Screens Css Start */
+/* login modal start */
+.loginModal{
+    background: url('/img/login-bg.png') no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    /* max-height: 1826px; */
+    overflow: hidden;
+    /* padding-bottom: 120px; */
+}
+.modal-img{
+    text-align: center;
+}
+.modal-img img {
+    width: 150px;
+}
+.login-text-padding{
+    padding: 5px 40px;
+}
+.login-heading-padding {
+    padding: 5px 40px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.login-p-margin{
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.white-color-text{
+    color: #ffffff;
+}
+.form-login input {
+
+    padding: 22px 20px;
+    background: transparent;
+    border: solid 1px #949693;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+}
+.close {
+    float: right;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff !important;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .8;
+    z-index: 10000;
+}
+.paddiing-bottom-20{
+    padding-bottom: 20px;
+}
+.color-pech{
+    color: #f2c73c;
+}
+.color-pech:hover {
+    color: #f2c73c;
+}
+.color-pech-tick{
+    color: #f2c73c;
+}
+.modal-bg {
+    border: solid 3px #6b6b6b;
+    border-radius: 20px;
+    /* background-color: rgba(14, 14,14, 0.62); */
+}
+.checkbox .cr, .radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+.login-btn {
+    background-color: #f2c73c;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #f2c73c;
+    padding: 10px;
+}
+.checbox-margin{
+    padding: 0;
+    margin-left: -10px;
+}
+
+.login-btn:focus,
+.login-btn:hover,
+.login-btn:active{
+    background-color: #e7c65b !important;
+    border: 1px solid #e7c65b;
+    outline: none;
+    padding: 10px;
+}
+.or-font{
+    font-size: 18px;
+    font-weight: 400;
+}
+.google-facebook-btn{
+    margin-right: 20px;
+}
+.forgot-pass {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px;
+}
+.m-t-m-15{
+    margin-top: -15px;
+}
+.shadow{
+    -webkit-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+}
+
+.login-modal-padding {
+    padding: 30px 50px;
+}
+/* login modal end */
+
+
+
+/* remember me section end */
+
+.checkbox label:after,
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+.s-group{
+    position:relative;
+    width:100%;
+    min-width:60px;
+    height:55px;
+    overflow:hidden;
+    margin: 0px !important;
+    transition: width 1s;
+    backface-visibility:hidden;
+}
+.m-top-20{
+    margin-top: 20px !important;
+}
+.btn-fb{
+    background: #3B5999;
+    border: none;
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+.btn-google{
+    background: #DE4B39;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.btn-fb2{
+    background: #355393;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    padding: 11px;
+    border-radius: 8px;
+    max-width: 125px;
+    text-align: center;
+}
+.btn-google2{
+    background: #D54230;
+    border: none;
+    font-size: 14px;
+    padding: 11px 20px;
+    color: #fff;
+    max-width: 125px;
+    border-radius: 8px;
+}
+
+.btn-fb2 a,
+.btn-google2 a {
+    color: #fff;
+}
+
+.btn-google:hover,
+.btn-google:focus,
+.btn-google:active,
+.btn-google2:hover,
+.btn-google2:focus,
+.btn-google2:active{
+
+    outline: none;
+    background: #D54230;
+
+}
+.border-b{
+    border-bottom: 1px solid #333332;
+}
+.account:hover,
+.account:focus,
+.account:active{
+    color: #fff;
+    opacity: 0.7;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+
+
+.fw-500{
+    font-weight: 500
+}
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 500px;
+        margin: 30px auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .login-modal-padding {
+        padding: 30px 10px;
+    }
+    .btn-fb {
+        font-size: 15px;
+        padding: 9px;
+    }
+    .btn-fb2 {
+        padding: 11px;
+        font-size: 12px;
+    }
+    .btn-google {
+        font-size: 15px;
+        padding: 9px;
+    }
+    .btn-google2 {
+        font-size: 12px;
+        padding: 11px;
+    }
+
+}
+
+
+/* remember me section end */
+
+
+/* Auth Screens Css ENd */
+.fa-user-login{
+    font-size: 16px;
+    margin-right: 10px;
+}
